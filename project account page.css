@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+
+  background-color: rgb(223, 222, 222);
+}
+
+.account-page {
+  max-width: 480px;
+  margin: auto;
+
+  
+}
+
+header {
+  background: #a6c6f5;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.plus {
+  font-size: 12px;
+  color: #666;
+}
+
+.coins {
+  background: gold;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.main-actions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 16px;
+   text-decoration: none;
+}
+
+.main-actions button {
+  padding: 12px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-weight: bold;
+ 
+}
+
+.verify-email {
+  padding: 16px;
+  background: #fff3cd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.update-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+section {
+  padding: 16px;
+  border-top: 1px solid #ddd;
+  background: #fff;
+}
+.footer {
+  background-color: hsl(218, 89%, 43%);
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin-top: 30px;
+}
